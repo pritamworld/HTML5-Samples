@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <![endif]-->
+	</head>
+<body>
+
+<div style="width:400px;border-radius: 25px;
+    background: #D7DBDD;
+    padding: 20px; 
+    height: auto;">
+<form action="/action_page.php" method="get">
+	
+  <label for="userid">User ID:</label>
+  <input type="text" id="userid" name="userid" >
+  <br>
+  <label for="userpwd">Password:</label>
+  <input type="password" id="userpwd" name="userpwd">
+  <br>
+  <label for="cnfuserpwd">Confirm Password:</label>
+  <input type="password" id="cnfuserpwd" name="cnfuserpwd">
+  <br>
+  <input type="submit" value="Sign Up!!!" 	style="background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;"/>
+</div>
+  <hr/>
+ 
+  First Name:
+  <input type="text" name="firstname" >
+  <br>
+  Last Name:
+  <input type="text" name="lastname">
+  <br><br>
+  <input type="radio" name="gender" value="Male">Male<br>
+  <input type="radio" name="gender" value="Female">Female<br>
+  <textarea name="adress" rows="10" cols="30">
+  Enter Your Address
+  </textarea>
+  <br>
+  <select name="country">
+    <option value="india">India</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+    <option value="uk">United Kingdom</option>
+  </select>
+  <br>
+  <input type="checkbox" value="Ckt" name="cktCricket">Cricket
+  <input type="checkbox" value="hky" name="cktHockey">Hockey
+  <br>
+  <input type="color" name="favcolor">
+  <br>
+  <input type="submit" value="Sign Up!!!">
+</form> 
+
+
+</div>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

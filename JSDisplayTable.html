@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--
+	Student ID: <<Put your ID here>>
+	Student Name: <<Put your name here>> 
+	Class: S-MAD-2017 Evening
+	Date Created: <<File creation date>>
+	Copyright &copy; 2017
+-->
+
+<head>
+   <title>Your title goes here </title>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <meta http-equiv="Content-Language" content="en-us" />
+   <script>
+   function displayName(n) 
+   {
+   	document.write("<table border=1><tr><th>Student Id</th><th>Student Name</th></tr>")
+   		for(i=1;i<=n;i++)
+   		{
+   			document.write("<tr><td>" + i + "</td><td>Pritesh</td></tr>");
+   		}
+   		document.write("</table>");
+	}
+
+   </script>
+</head>
+
+<body>
+<h1>My Name is</h1>
+	
+	<button type="button" onclick="displayName(10)">Display My Name</button>
+
+</body>
+</html>
+
+<!--
+
+	Note:
+		All tags and attributes must be lower-case characters.
+		All attributes MUST contain a value and that value must be quoted.
+		Use proper nesting - the last tag opened must be the first tag closed.
+		Use http://www.lipsum.com/ to generate dummy text
+
+-->
